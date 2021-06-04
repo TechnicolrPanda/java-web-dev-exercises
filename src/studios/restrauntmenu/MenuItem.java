@@ -41,4 +41,8 @@ public class MenuItem {
     public void setNewItem(Boolean aNewItem){
         newItem = aNewItem;
     }
+
+    public boolean equals(MenuItem item){
+        return this.name == item.name;
+    }
 }

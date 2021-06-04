@@ -1,5 +1,6 @@
 package studios.restrauntmenu;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 public class Menu {
@@ -13,7 +14,8 @@ public class Menu {
         updated = aUpdated;
     }
 
-    public void main(String arr){
-        MenuItem item = new MenuItem();
+    public static void main(String[] args) {
+        ArrayList<MenuItem> menu = new ArrayList<>();
     }
+    
 }
